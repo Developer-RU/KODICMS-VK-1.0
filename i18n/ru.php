@@ -1,7 +1,7 @@
 <?php defined('SYSPATH') or die('No direct access allowed.');
 
 return array(
-	'Vkgroup ID' => 'Идентификатор группы VK',
+	'Vkgroup ID' => 'Идентификатор',
 	'Vkgroup vidget' => 'Виджет группы VK',
     
 	'Settings widget Vkontakte Group' => 'Настройки виджета "Вконтакте"',

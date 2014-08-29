@@ -109,7 +109,8 @@ VK.Widgets.Group("vk_groups", {
     }, <?php echo $plugin->get('vkgroup_id'); ?>);
 </script>
 <noscript>Please enable JavaScript to view the widget Vkgroup.</a></noscript><br>
-<b>Developer:</b> <a href="mailto:p.masyukov@yandex.ru" class="dsq-brlink">p.masyukov@yandex.ru</a><br>
+<p><b>Написать разработчику:  </b>   <a href="mailto:p.masyukov@yandex.ru" class="dsq-brlink">p.masyukov@yandex.ru</a></p>
+<p><b>Последняя версия с GitHub: </b>   <code>https://github.com/Developer-RU/Kodicms-plugin-vkgroup.git</code></p>
         <br>
     </div>
 </div>
