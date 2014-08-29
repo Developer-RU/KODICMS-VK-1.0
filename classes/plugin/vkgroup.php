@@ -27,6 +27,13 @@ class Plugin_Vkgroup extends Plugin_Decorator {
                 array('numeric'),
                 
             ),
+            
+            'vkgroup_type' => array(
+                array('not_empty'),
+                array('numeric'),
+                
+            ),
+            
             'vkgroup_height' => array(
                 array('not_empty'),
                 array('numeric'),

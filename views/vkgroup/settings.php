@@ -20,19 +20,16 @@
 
             <div class="controls">
                 <?php
-                
-                if($plugin->get('type_widget') == 0){}
-          
-              
-                echo Form::radio('setting[type_widget]', 1 , $checked, array(
-                    'id' => 'setting_type_widget', 'class' => '', 'checked' => $checked
-                )) . "&#160;&#160;&#160;";
+                echo Form::radio('setting[type_widget]', 0, (($plugin->get('type_widget') == 0) ? TRUE : FALSE), 
+                        array(
+                            'id' => 'setting_type_widget', 'class' => ''
+                        )) . "&#160;&#160;&#160;";
                 echo Form::label('setting_type_widget', __('Участники'), array('class' => 'label')) . "&#160;&#160;&#160;";
 
        
                                 
-                echo Form::radio('setting[type_widget]', 0, $checked, array(
-                    'id' => 'setting_type_widget', 'class' => '', 'checked' => $checked
+                echo Form::radio('setting[type_widget]', 1, (($plugin->get('type_widget') == 1) ? TRUE : FALSE), array(
+                    'id' => 'setting_type_widget', 'class' => ''
                 )) . "&#160;&#160;&#160;";
                 echo Form::label('setting_type_widget', __('Новости'), array('class' => 'label')) . "&#160;&#160;&#160;";
                 ?> 
