@@ -24,16 +24,12 @@ class Plugin_Vkgroup extends Plugin_Decorator {
             ),
             'vkgroup_width' => array(
                 array('not_empty'),
-                array('min_length', array(':value', 2)),
-                array('max_length', array(':value', 4)),
-                array('numeric', array(':value', 'vkgroup_width')),
+                array('numeric'),
                 
             ),
             'vkgroup_height' => array(
                 array('not_empty'),
-                array('min_length', array(':value', 2)),
-                array('max_length', array(':value', 4)),
-                array('numeric', array(':value', 'vkgroup_height')),
+                array('numeric'),
             ),
             
             'vkgroup_bgcolor' => array(
