@@ -21,29 +21,17 @@
             <div class="controls">
                 <?php
                 
-                if($plugin->get('type_widget') !== 0)
-                {
-                    $checked = 'checked';
-                }
-                else 
-                {
-                     $checked = FALSE;   
-                }
-                echo Form::radio('setting[type_widget]', 0 , $checked, array(
+                if($plugin->get('type_widget') == 0){}
+          
+              
+                echo Form::radio('setting[type_widget]', 1 , $checked, array(
                     'id' => 'setting_type_widget', 'class' => '', 'checked' => $checked
                 )) . "&#160;&#160;&#160;";
                 echo Form::label('setting_type_widget', __('Участники'), array('class' => 'label')) . "&#160;&#160;&#160;";
 
-                if( $checked ) 
-                {
-                    $checked = FALSE;
-                }
-                else 
-                {
-                    $checked = 'checked'; 
-                }
-                
-                echo Form::radio('setting[type_widget]', 1, $checked, array(
+       
+                                
+                echo Form::radio('setting[type_widget]', 0, $checked, array(
                     'id' => 'setting_type_widget', 'class' => '', 'checked' => $checked
                 )) . "&#160;&#160;&#160;";
                 echo Form::label('setting_type_widget', __('Новости'), array('class' => 'label')) . "&#160;&#160;&#160;";
