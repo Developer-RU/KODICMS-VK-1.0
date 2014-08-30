@@ -1,4 +1,4 @@
-Kodicms-plugin-vkgroup
+﻿Kodicms-plugin-vkgroup (v9.16)
 ======================
 
 Плагин виджета Вконтакте.
