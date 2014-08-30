@@ -1,18 +1,30 @@
-<?php defined('SYSPATH') or die('No direct access allowed.');
+<?php
+
+defined('SYSPATH') or die('No direct access allowed.');
+
+/**
+ * @Описание файла: "vkgroup"
+ * 
+ * -------
+ * 
+ * Виджет Вконтакте - KodiCms
+ * 
+ * -------
+ * @Разработчик Масюков Павел
+ * @Дата создания 29.08.2014
+ * @Email p.masyukov@yandex.ru
+ * @URL https://github.com/Developer-RU
+ * 
+ */
 
 return array(
-	'Vkgroup ID' => 'Идентификатор',
-	'Vkgroup vidget' => 'Виджет группы VK',
-    
-	'Settings widget Vkontakte Group' => 'Настройки виджета "Вконтакте"',
-    
-    
- 	'Width Widget VK' => 'Ширина' ,
-	'Height Widget VK' => 'Высота' ,
-    
-    
-	'Background color VK' => 'Цвет фона' ,
-	'Text Color VK' => 'Цвет текста' ,
-	'Color buttons VK' => 'Цвет кнопок' ,
- 
+    'Vkgroup'=>'Виджет Вконтакте',
+    'Group' => 'Идентификатор',
+    'Widget' => 'Виджет группы Вконтакте',
+    'Settings' => 'Настройки',
+    'Width' => 'Ширина',
+    'Height' => 'Высота',
+    'Background' => 'Цвет фона',
+    'Color' => 'Цвет текста',
+    'Buttons' => 'Цвет кнопок',
 );
